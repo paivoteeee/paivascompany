@@ -1,3 +1,4 @@
+
 /*
 
 TemplateMo 574 Mexant
@@ -43,10 +44,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-#footer{
-  margin-top: 50vh;
-}
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -97,7 +94,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 0px;
   color: #212741;
 }
@@ -143,7 +140,7 @@ body {
 
 
   #parças{
-    height: 500vh;
+    height: 320vh;
   }
   .card-deck{
     padding: 10px;
@@ -173,7 +170,7 @@ body {
     overflow-x: hidden;
   }
   #footer{
-    margin-top: 315vh;
+    margin-top: 350vh;
   }
   .background-header {
     background-color: #202022;
@@ -658,6 +655,9 @@ header
     right: 0;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
   }
+  #footer{
+    margin-top: 250vh;
+  }
   #parças{
     height: 400vh;
   }
@@ -849,7 +849,6 @@ banner
   top: 50%;
   transform: translateY(-50%);
 }
-
 
 .slide-inner .header-text h2 {
   position: relative;
@@ -1947,3 +1946,138 @@ body {
  background-color:#43ba7f;
 }
 
+/*parceiros*/
+ .filters_menu {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: 45px 0 20px 0;
+}
+
+ .filters_menu li {
+  padding: 7px 25px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+ .filters_menu li.active {
+  color: #ffffff;
+}
+
+ .box {
+  position: relative;
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+ .box .img-box {
+  background: #f1f2f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 215px;
+  border-radius: 0 0 0 45px;
+  margin: -1px;
+  padding: 25px;
+}
+
+ .box .img-box img {
+  max-width: 100%;
+  max-height: 145px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+ .box .detail-box {
+  padding: 25px;
+}
+
+ .box .detail-box h5 {
+  font-weight: 600;
+}
+
+ .box .detail-box p {
+  font-size: 15px;
+}
+
+ .box .detail-box h6 {
+  margin-top: 10px;
+}
+
+ .box .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ .box .options a {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #ffbe33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ .box .options a svg {
+  width: 18px;
+  height: auto;
+  fill: #ffffff;
+}
+
+ .box:hover .img-box img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+ .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.btn-box a {
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.btn-box a:hover {
+  background-color: #e69c00;
+}
